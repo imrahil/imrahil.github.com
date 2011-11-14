@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kategoria: Test | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://imrahil.github.com/"/>
+  <updated>2011-11-14T13:49:19-08:00</updated>
+  <id>http://imrahil.github.com/</id>
+  <author>
+    <name><![CDATA[Jarek Szczepański]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://imrahil.github.com/blog/2011/11/14/hello-world/"/>
+    <updated>2011-11-14T13:14:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2011/11/14/hello-world</id>
+    <content type="html"><![CDATA[<p><em>Hello World!</em> - czyli wszystko co trzeba napisać na powitanie :)</p>
+]]></content>
+  </entry>
+  
+</feed>
