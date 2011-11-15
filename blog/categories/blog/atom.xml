@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Mały blog DIY]]></title>
-  <link href="http://imrahil.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Kategoria: Blog | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
   <updated>2011-11-15T06:33:54-08:00</updated>
   <id>http://imrahil.github.com/</id>
@@ -19,15 +19,6 @@
     <updated>2011-11-15T06:29:00-08:00</updated>
     <id>http://imrahil.github.com/blog/2011/11/15/spis-kategorii</id>
     <content type="html"><![CDATA[<p>Dodałem spis kategorii w prawym sidebarze - zgodnie z fixem podanym na stronie <a href="http://anthonydigirolamo.github.com/blog/2011/09/21/octopress-category-listing/">DiGirolamo Knows</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://imrahil.github.com/blog/2011/11/14/hello-world/"/>
-    <updated>2011-11-14T13:14:00-08:00</updated>
-    <id>http://imrahil.github.com/blog/2011/11/14/hello-world</id>
-    <content type="html"><![CDATA[<p><em>Hello World!</em> - czyli wszystko co trzeba napisać na powitanie :)</p>
 ]]></content>
   </entry>
   
