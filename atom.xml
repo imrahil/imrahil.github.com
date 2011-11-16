@@ -4,7 +4,7 @@
   <title><![CDATA[Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2011-11-15T06:33:54-08:00</updated>
+  <updated>2011-11-16T06:43:03-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Is Flex Dead?]]></title>
+    <link href="http://imrahil.github.com/blog/2011/11/16/is-flex-dead/"/>
+    <updated>2011-11-16T06:36:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2011/11/16/is-flex-dead</id>
+    <content type="html"><![CDATA[<p>Bardzo aktualny temat - <a href="http://www.isflexdead.com/">Is Flex Dead?</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spis kategorii]]></title>
