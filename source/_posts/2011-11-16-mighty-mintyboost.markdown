@@ -5,7 +5,7 @@ date: 2011-11-16 14:11
 comments: true
 categories: DIY 
 ---
-Tak się pomyślnie złożyło, że sklep internetowy [nettigo.pl](http://www.nettigo.pl) z okazji 11 listopada zaoferował zniżkę 11% na wszystkie produkty. Długo się nie namyślająć kupiłem sobie zestaw [MintyBoost](http://www.ladyada.net/make/mintyboost/) od [Adafruit](http://www.adafruit.com).  
+Tak się pomyślnie złożyło, że sklep internetowy [nettigo.pl](http://www.nettigo.pl) z okazji 11 listopada zaoferował zniżkę 11% na wszystkie produkty. Długo się nie namyślając kupiłem sobie zestaw [MintyBoost](http://www.ladyada.net/make/mintyboost/) od [Adafruit](http://www.adafruit.com).  
   
 {% img center /images/uploads/minty-boost-kit-1.jpg %}
 <p style="margin-left: auto; margin-top: -20px; margin-right: auto; width: 450px; text-align: right; font-size: 0.8em">Zdjęcie z serwisu <a href="http://nettigo.pl/product/Minty-Boost-Kit,minty-boost-kit)">nettigo.pl</a></p>
@@ -28,9 +28,9 @@ Całość po zlutowaniu prezentuje się mniej więcej tak:
 {% img center /images/uploads/IMG_20111116_204035.jpg 300 %}
 {% img center /images/uploads/IMG_20111116_204100.jpg 300 %}
 
-A po wycięciu otworu na gniazdo USB w pudełko po cukierkach [Altoids](http://shop.altoids.com/) (choć mogą być też znacznie bardziej dostępne [Curiously Strong Mints](http://www.britstore.co.uk/Marks-and-Spencer-Food-Marks-and-Spencer-Sweets-Marks-and-Spencer-Mints-and-Chewing-Gum/c1_11_1254/p5311/Marks-and-Spencer-Curiously-Strong-Mints-50g-Tin/product_info.html) z Marks&Spencer) i umiejscowieniu baterii, całość wygląda tak:  
+Po wycięciu otworu na gniazdo USB w pudełku po cukierkach [Altoids](http://shop.altoids.com/) (choć mogą być też znacznie bardziej dostępne [Curiously Strong Mints](http://www.britstore.co.uk/Marks-and-Spencer-Food-Marks-and-Spencer-Sweets-Marks-and-Spencer-Mints-and-Chewing-Gum/c1_11_1254/p5311/Marks-and-Spencer-Curiously-Strong-Mints-50g-Tin/product_info.html) z Marks&Spencer) i umiejscowieniu baterii, całość wygląda tak:  
 {% img center /images/uploads/IMG_20111116_213647.jpg 300 %}
 {% img center /images/uploads/IMG_20111116_213705_.jpg 300 %}
 {% img center /images/uploads/IMG_20111116_214100.jpg 300 %}
 
-Moja wersja to tzw. Mighty MintyBoost bo używam 4 baterii AA - 2 połączonych równolegle zestawów szeregowych. Na wejściu układu mam więc ciągle 3V, ale za to większą pojemność (czyli dłuższy czas potencjalnego ładowania).
+Moja wersja to tzw. Mighty MintyBoost, bo używam 4 baterii AA - 2 połączonych równolegle zestawów szeregowych. Na wejściu układu mam więc ciągle 3V, ale za to większą pojemność (czyli dłuższy czas potencjalnego ładowania).
