@@ -4,7 +4,7 @@
   <title><![CDATA[Kategoria: DIY | Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2011-11-16T15:11:14-08:00</updated>
+  <updated>2011-11-16T15:16:15-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -18,7 +18,7 @@
     <link href="http://imrahil.github.com/blog/2011/11/16/mighty-mintyboost/"/>
     <updated>2011-11-16T14:11:00-08:00</updated>
     <id>http://imrahil.github.com/blog/2011/11/16/mighty-mintyboost</id>
-    <content type="html"><![CDATA[<p>Tak się pomyślnie złożyło, że sklep internetowy <a href="http://www.nettigo.pl">nettigo.pl</a> z okazji 11 listopada zaoferował zniżkę 11% na wszystkie produkty. Długo się nie namyślająć kupiłem sobie zestaw <a href="http://www.ladyada.net/make/mintyboost/">MintyBoost</a> od <a href="http://www.adafruit.com">Adafruit</a>.</p>
+    <content type="html"><![CDATA[<p>Tak się pomyślnie złożyło, że sklep internetowy <a href="http://www.nettigo.pl">nettigo.pl</a> z okazji 11 listopada zaoferował zniżkę 11% na wszystkie produkty. Długo się nie namyślając kupiłem sobie zestaw <a href="http://www.ladyada.net/make/mintyboost/">MintyBoost</a> od <a href="http://www.adafruit.com">Adafruit</a>.</p>
 
 <p><img class="center" src="/images/uploads/minty-boost-kit-1.jpg"></p>
 
@@ -49,12 +49,12 @@
 <img class="center" src="/images/uploads/IMG_20111116_204035.jpg" width="300">
 <img class="center" src="/images/uploads/IMG_20111116_204100.jpg" width="300"></p>
 
-<p>A po wycięciu otworu na gniazdo USB w pudełko po cukierkach <a href="http://shop.altoids.com/">Altoids</a> (choć mogą być też znacznie bardziej dostępne <a href="http://www.britstore.co.uk/Marks-and-Spencer-Food-Marks-and-Spencer-Sweets-Marks-and-Spencer-Mints-and-Chewing-Gum/c1_11_1254/p5311/Marks-and-Spencer-Curiously-Strong-Mints-50g-Tin/product_info.html">Curiously Strong Mints</a> z Marks&amp;Spencer) i umiejscowieniu baterii, całość wygląda tak:<br/>
+<p>Po wycięciu otworu na gniazdo USB w pudełku po cukierkach <a href="http://shop.altoids.com/">Altoids</a> (choć mogą być też znacznie bardziej dostępne <a href="http://www.britstore.co.uk/Marks-and-Spencer-Food-Marks-and-Spencer-Sweets-Marks-and-Spencer-Mints-and-Chewing-Gum/c1_11_1254/p5311/Marks-and-Spencer-Curiously-Strong-Mints-50g-Tin/product_info.html">Curiously Strong Mints</a> z Marks&amp;Spencer) i umiejscowieniu baterii, całość wygląda tak:<br/>
 <img class="center" src="/images/uploads/IMG_20111116_213647.jpg" width="300">
 <img class="center" src="/images/uploads/IMG_20111116_213705_.jpg" width="300">
 <img class="center" src="/images/uploads/IMG_20111116_214100.jpg" width="300"></p>
 
-<p>Moja wersja to tzw. Mighty MintyBoost bo używam 4 baterii AA - 2 połączonych równolegle zestawów szeregowych. Na wejściu układu mam więc ciągle 3V, ale za to większą pojemność (czyli dłuższy czas potencjalnego ładowania).</p>
+<p>Moja wersja to tzw. Mighty MintyBoost, bo używam 4 baterii AA - 2 połączonych równolegle zestawów szeregowych. Na wejściu układu mam więc ciągle 3V, ale za to większą pojemność (czyli dłuższy czas potencjalnego ładowania).</p>
 ]]></content>
   </entry>
   
