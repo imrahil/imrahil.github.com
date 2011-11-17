@@ -12,6 +12,25 @@ Tak się pomyślnie złożyło, że sklep internetowy [nettigo.pl](http://www.ne
 
 <!-- more -->
 
+<script type="text/javascript" src="{{ root_url }}/javascripts/jquery.js"></script>
+<script type="text/javascript" src="{{ root_url }}/javascripts/jquery.lightbox.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+jQuery.noConflict();
+
+jQuery(function() {
+    jQuery('a.lightbox').lightBox({
+	imageLoading: '/images/lightbox-ico-loading.gif',
+	imageBtnPrev: '/images/lightbox-btn-prev.gif',
+	imageBtnNext: '/images/lightbox-btn-next.gif',
+	imageBtnClose: '/images/lightbox-btn-close.gif',
+	imageBlank: '/images/lightbox-blank.gif'
+	});
+});
+</script>
+
 Jak widać zestaw nie należy do najtrudniejszych w montażu. W jego skład wchodzi:
 
  * układ LT1302
