@@ -4,7 +4,7 @@
   <title><![CDATA[Kategoria: DIY | Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2011-11-17T02:13:27-08:00</updated>
+  <updated>2011-11-17T02:57:30-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -28,6 +28,31 @@
 
 
 <!-- more -->
+
+
+
+
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+
+
+<script type="text/javascript" src="/javascripts/jquery.lightbox.js"></script>
+
+
+<p><link rel="stylesheet" type="text/css" href="http://imrahil.github.com/stylesheets/jquery.lightbox-0.5.css" media="screen" /></p>
+
+<script type="text/javascript">
+jQuery.noConflict();
+
+jQuery(function() {
+    jQuery('a.lightbox').lightBox({
+    imageLoading: '/images/lightbox-ico-loading.gif',
+    imageBtnPrev: '/images/lightbox-btn-prev.gif',
+    imageBtnNext: '/images/lightbox-btn-next.gif',
+    imageBtnClose: '/images/lightbox-btn-close.gif',
+    imageBlank: '/images/lightbox-blank.gif'
+    });
+});
+</script>
 
 
 <p>Jak widać zestaw nie należy do najtrudniejszych w montażu. W jego skład wchodzi:</p>
