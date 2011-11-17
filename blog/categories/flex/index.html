@@ -29,6 +29,23 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.lightbox.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+$(function() {
+    $('a.lightbox').lightBox({
+	imageLoading: '/images/lightbox-ico-loading.gif',
+	imageBtnPrev: '/images/lightbox-btn-prev.gif',
+	imageBtnNext: '/images/lightbox-btn-next.gif',
+	imageBtnClose: '/images/lightbox-btn-close.gif',
+	imageBlank: '/images/lightbox-blank.gif'
+	});
+});
+</script>
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
