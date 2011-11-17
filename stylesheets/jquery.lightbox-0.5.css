@@ -20,6 +20,8 @@
 	height: 500px;
 }
 #jquery-lightbox {
+        background: none repeat scroll 0 0 transparent;
+        border-bottom: 0 none;
 	position: absolute;
 	top: 0;
 	left: 0;
