@@ -7,4 +7,5 @@ categories: DIY lifehack
 ---
 Przygotowania do przeprowadzki idą pełną parą. Z racji tego, że w nowym mieszkaniu nie będzie dla mnie biurka szukam czegoś ciekawego na sieci.
 Mike Szczys z [Hack a Day](http://www.hackaday.com) zapodał [ciekawy opis](http://jumptuck.com/2011/11/21/desk-build/) jak zbudować wiszące biurko wzdłuż całej ściany.  
+
 [{% img center /images/uploads/biurko.jpg 400 %}](http://jumptuck.com/2011/11/21/desk-build/)
