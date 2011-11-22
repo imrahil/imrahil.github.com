@@ -37,7 +37,7 @@ Więcej zdjęć:
         <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02_small.jpg %}</a></td>
     </tr>
     <tr>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg %}</a</td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg %}</a></td>
         <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10_small.jpg %}</a></td>
     </tr>
 </table>
