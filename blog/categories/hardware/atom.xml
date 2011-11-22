@@ -4,7 +4,7 @@
   <title><![CDATA[Kategoria: hardware | Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/blog/categories/hardware/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2011-11-22T02:42:37-08:00</updated>
+  <updated>2011-11-22T02:49:01-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -53,12 +53,12 @@ jQuery(function() {
 
 <table width="100%">
     <tr>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01_small.jpg"></a></td>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02_small.jpg"></a></td>
     </tr>
     <tr>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg"></a</td>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg"></a</td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10_small.jpg"></a></td>
     </tr>
 </table>
 
