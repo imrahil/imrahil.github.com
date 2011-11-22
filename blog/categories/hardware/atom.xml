@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kategoria: hardware | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/hardware/atom.xml" rel="self"/>
+  <link href="http://imrahil.github.com/"/>
+  <updated>2011-11-22T02:42:37-08:00</updated>
+  <id>http://imrahil.github.com/</id>
+  <author>
+    <name><![CDATA[Jarek Szczepański]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Stojak do wiertarki]]></title>
+    <link href="http://imrahil.github.com/blog/2011/11/22/stojak-do-wiertarki/"/>
+    <updated>2011-11-22T02:17:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2011/11/22/stojak-do-wiertarki</id>
+    <content type="html"><![CDATA[<p>Korzystając z aktualnej promocji w <a href="http://www.lidl.pl/">Lidlu</a> kupiłem sobie stojak do wiertarki w cenie 69.90pln (chyba nawet nie jest chiński :)<br/>
+Wygląda całkiem korzystnie i sprawia wrażenie dość solidnego. Nic nie lata, nie ma luzów, brak jakichkolwiek uszkodzeń.</p>
+
+<p><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak11_small.jpg"></p>
+
+<!-- more -->
+
+
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+
+
+<script type="text/javascript" src="/javascripts/jquery.lightbox.js"></script>
+
+
+<p><link rel="stylesheet" type="text/css" href="http://imrahil.github.com/stylesheets/jquery.lightbox-0.5.css" media="screen" /></p>
+
+<script type="text/javascript">
+jQuery.noConflict();
+
+jQuery(function() {
+    jQuery('a.lightbox').lightBox({
+    imageLoading: '/images/lightbox-ico-loading.gif',
+    imageBtnPrev: '/images/lightbox-btn-prev.gif',
+    imageBtnNext: '/images/lightbox-btn-next.gif',
+    imageBtnClose: '/images/lightbox-btn-close.gif',
+    imageBlank: '/images/lightbox-blank.gif'
+    });
+});
+</script>
+
+
+<p>Więcej zdjęć:</p>
+
+<table width="100%">
+    <tr>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02_small.jpg"></a></td>
+    </tr>
+    <tr>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg"></a</td>
+        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox"><img src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10_small.jpg"></a></td>
+    </tr>
+</table>
+
+
+<p><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak05.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak05_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak06.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak06_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak07.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak07_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak08.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak08_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak09.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak09_small.jpg"></a></p>
+
+<p>No to teraz trzeba kupić wiertarkę - tak, żeby móc sprawdzić jak się stojak w boju sprawuje :)</p>
+]]></content>
+  </entry>
+  
+</feed>
