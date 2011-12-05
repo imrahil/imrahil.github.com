@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kategoria: wp7 | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/wp7/atom.xml" rel="self"/>
+  <link href="http://imrahil.github.com/"/>
+  <updated>2011-12-05T01:36:37-08:00</updated>
+  <id>http://imrahil.github.com/</id>
+  <author>
+    <name><![CDATA[Jarek Szczepański]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Code snippet dla PropertyChanged (MVVM)]]></title>
+    <link href="http://imrahil.github.com/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/"/>
+    <updated>2011-12-05T00:58:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm</id>
+    <content type="html"><![CDATA[<p>Zajmuję się ostatnio poznawaniem programowania dla <a href="http://msdn.microsoft.com/pl-pl/ff380145">Windows Phone 7.5</a>. Dość poważnym problemem było dla mnie zrozumienie jak działa bindowanie (bardzo prosta rzecz we Flexie) i jak włączyć aktualizację danych z modelu w widoku.<br/>
+Po chwili googlania znalazłem bardzo dobry tutorial na stronach <a href="http://www.codeguru.pl/baza-wiedzy/wp7-dla-programistow-czesc-3---data-binding-i-mvvm,1836">bazy wiedzy Codeguru</a>.<br/>
+Można się z niego dowiedzieć, że rozwiązaniem tego problemu jest implementacja interfejsu <strong>INotifyPropertyChanged</strong> dla każdego modelu (lub ViewModelu - ale to kwestia na osobny post).<br/>
+Wspomniana implementacja wygląda mniej więcej tak:</p>
+
+<pre><code>public event PropertyChangedEventHandler PropertyChanged;
+
+protected void OnPropertyChanged(string propertyName)
+{
+    if (PropertyChanged != null)
+    {
+        PropertyChanged(this,
+            new PropertyChangedEventArgs(propertyName));
+    }
+}
+</code></pre>
+
+<p>W efekcie czego wystarczy dla każdej zmiennej w obiekcie dać takie gettery i settery:</p>
+
+<pre><code>private int myField;
+
+public int MyProperty
+{
+    get
+    {
+        return this.myField;
+    }
+
+    set
+    {
+        if (this.myField != value)
+        {
+            this.myField = value;
+            this.OnPropertyChanged("MyProperty");
+        }
+    }
+}
+</code></pre>
+
+<p>Problem pojawia się w momencie gdy trzeba stworzyć dużo zmiennych do modelu, albo skonwertować obiekt z AS3 (tak jak w moim przypadku). Wtedy z pomocą przychodzą snippety stworzone przez <a href="http://weblogs.asp.net/marianor/archive/2009/08/17/c-code-snippets-for-properties-raising-propertychanged-event.aspx">Mariano Omar Rodriguez</a>. Tworzą one kod identyczny z tym podanym wcześniej.<br/>
+Na wszelki wypadek lokalna kopia do ściągnięcia <a href="/upload/PropertyChangedSnippets.zip">tutaj</a>.</p>
+
+<p>W Visual Studio 2010 snippety dostępne są pod skrótami: <strong>propnpc</strong> oraz <strong>onpc</strong>.
+(czyli wpisujemy <strong>propnpc</strong>, naciskamy Tab dwa razy i wpisujemy nazwę zmiennej :)</p>
+]]></content>
+  </entry>
+  
+</feed>

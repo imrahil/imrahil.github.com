@@ -9,8 +9,7 @@
   <meta name="author" content="Jarek Szczepański">
 
   
-  <meta name="description" content="Korzystając z aktualnej promocji w Lidlu kupiłem sobie stojak do wiertarki w cenie 69.90pln (chyba nawet nie jest chiński :)
-Wygląda całkiem &hellip;">
+  <meta name="description" content="Zajmuję się ostatnio poznawaniem programowania dla Windows Phone 7.5. Dość poważnym problemem było dla mnie zrozumienie jak działa bindowanie (bardzo &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,128 @@ Wygląda całkiem &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/">Code Snippet Dla PropertyChanged (MVVM)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-05T00:58:00-08:00" pubdate data-updated="true">Dec 5<span>th</span>, 2011</time>
+        
+         | <a href="/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Zajmuję się ostatnio poznawaniem programowania dla <a href="http://msdn.microsoft.com/pl-pl/ff380145">Windows Phone 7.5</a>. Dość poważnym problemem było dla mnie zrozumienie jak działa bindowanie (bardzo prosta rzecz we Flexie) i jak włączyć aktualizację danych z modelu w widoku.<br/>
+Po chwili googlania znalazłem bardzo dobry tutorial na stronach <a href="http://www.codeguru.pl/baza-wiedzy/wp7-dla-programistow-czesc-3---data-binding-i-mvvm,1836">bazy wiedzy Codeguru</a>.<br/>
+Można się z niego dowiedzieć, że rozwiązaniem tego problemu jest implementacja interfejsu <strong>INotifyPropertyChanged</strong> dla każdego modelu (lub ViewModelu - ale to kwestia na osobny post).<br/>
+Wspomniana implementacja wygląda mniej więcej tak:</p>
+
+<pre><code>public event PropertyChangedEventHandler PropertyChanged;
+
+protected void OnPropertyChanged(string propertyName)
+{
+    if (PropertyChanged != null)
+    {
+        PropertyChanged(this,
+            new PropertyChangedEventArgs(propertyName));
+    }
+}
+</code></pre>
+
+<p>W efekcie czego wystarczy dla każdej zmiennej w obiekcie dać takie gettery i settery:</p>
+
+<pre><code>private int myField;
+
+public int MyProperty
+{
+    get
+    {
+        return this.myField;
+    }
+
+    set
+    {
+        if (this.myField != value)
+        {
+            this.myField = value;
+            this.OnPropertyChanged("MyProperty");
+        }
+    }
+}
+</code></pre>
+
+<p>Problem pojawia się w momencie gdy trzeba stworzyć dużo zmiennych do modelu, albo skonwertować obiekt z AS3 (tak jak w moim przypadku). Wtedy z pomocą przychodzą snippety stworzone przez <a href="http://weblogs.asp.net/marianor/archive/2009/08/17/c-code-snippets-for-properties-raising-propertychanged-event.aspx">Mariano Omar Rodriguez</a>. Tworzą one kod identyczny z tym podanym wcześniej.<br/>
+Na wszelki wypadek lokalna kopia do ściągnięcia <a href="/upload/PropertyChangedSnippets.zip">tutaj</a>.</p>
+
+<p>W Visual Studio 2010 snippety dostępne są pod skrótami: <strong>propnpc</strong> oraz <strong>onpc</strong>.
+(czyli wpisujemy <strong>propnpc</strong>, naciskamy Tab dwa razy i wpisujemy nazwę zmiennej :)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/04/jestem-developerem-windows-phone-7/">Jestem Developerem Windows Phone 7!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-04T01:28:00-08:00" pubdate data-updated="true">Dec 4<span>th</span>, 2011</time>
+        
+         | <a href="/blog/2011/12/04/jestem-developerem-windows-phone-7/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Dzięki uprzejmości firmy Microsoft z dniem dzisiejszym dołączyłem do grona developerów Windows Phone 7 :)<br/>
+Przedemną teraz ciężki okres poznawania C#, .NET, Silverlight, etc
+Na szczęście na pierwszy rzut oka nie wygląda to wszystko zbyt strasznie. Dodatkowo można zupełnie za darmo ściągnąć sobie książkę <a href="http://blogs.msdn.com/b/microsoft_press/archive/2010/10/28/free-ebook-programming-windows-phone-7-by-charles-petzold.aspx">Programming Windows Phone 7, autor: Charles Petzold</a> ze stron MSDN Microsoftu.<br/>
+A więc do dzieła!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -341,12 +462,20 @@ Mike Szczys z <a href="http://www.hackaday.com">Hack a Day</a> zapodał <a href=
   <h1>Kategorie</h1>
   <ul>
     <li>
-      <a class='category' href='/blog/categories/actionscript/'>Actionscript</a>, <a class='category' href='/blog/categories/blog/'>Blog</a>, <a class='category' href='/blog/categories/diy/'>DIY</a>, <a class='category' href='/blog/categories/flex/'>Flex</a>, <a class='category' href='/blog/categories/test/'>Test</a>, <a class='category' href='/blog/categories/hardware/'>hardware</a>, <a class='category' href='/blog/categories/lifehack/'>lifehack</a>
+      <a class='category' href='/blog/categories/actionscript/'>Actionscript</a>, <a class='category' href='/blog/categories/blog/'>Blog</a>, <a class='category' href='/blog/categories/diy/'>DIY</a>, <a class='category' href='/blog/categories/flex/'>Flex</a>, <a class='category' href='/blog/categories/test/'>Test</a>, <a class='category' href='/blog/categories/wp7/'>WP7</a>, <a class='category' href='/blog/categories/code-snippets/'>code_snippets</a>, <a class='category' href='/blog/categories/hardware/'>hardware</a>, <a class='category' href='/blog/categories/lifehack/'>lifehack</a>, <a class='category' href='/blog/categories/mvvm/'>mvvm</a>, <a class='category' href='/blog/categories/wp7/'>wp7</a>
     </li>
   </ul>
 
   <h1>Ostatnie wpisy</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/">Code snippet dla PropertyChanged (MVVM)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/12/04/jestem-developerem-windows-phone-7/">Jestem developerem Windows Phone 7!</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2011/11/22/stojak-do-wiertarki/">Stojak do wiertarki</a>
@@ -358,14 +487,6 @@ Mike Szczys z <a href="http://www.hackaday.com">Hack a Day</a> zapodał <a href=
     
       <li class="post">
         <a href="/blog/2011/11/16/mighty-mintyboost/">Mighty MintyBoost</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/11/16/is-flex-dead/">Is Flex Dead?</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/11/15/spis-kategorii/">Spis kategorii</a>
       </li>
     
   </ul>
