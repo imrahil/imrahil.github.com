@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Kategoria: mvvm - Mały blog DIY</title>
+  <title>Błąd w Adobe AIR 3.1 dla iOS - Mały blog DIY</title>
   <meta name="author" content="Jarek Szczepański">
 
   
-  <meta name="description" content="Category: mvvm">
+  <meta name="description" content="Jeśli po instalacji aplikacji Adobe AIR dla iOS nazwa aplikacji jest skopana to znaczy, że macie do czynienia z błędem 3052344.
+Konkretnie chodzi o &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://imrahil.github.comblog/categories/mvvm">
+  <link rel="canonical" href="http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -75,36 +76,120 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Kategoria: Mvvm</h1>
+    
+      <h1 class="entry-title">Błąd W Adobe AIR 3.1 Dla iOS</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-09T10:35:00-08:00" pubdate data-updated="true">Dec 9<span>th</span>, 2011</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Jeśli po instalacji aplikacji Adobe AIR dla iOS nazwa aplikacji jest skopana to znaczy, że macie do czynienia z <a href="https://bugbase.adobe.com/index.cfm?event=bug&amp;id=3052344">błędem 3052344</a>.<br/>
+Konkretnie chodzi o to, że nazwa aplikacji wyświetlana w menu brana jest z application-app.xml z pola:</p>
 
-  
-  <h2>2011</h2>
+<pre><code>&lt;filename&gt;Filename&lt;/filename&gt;
+</code></pre>
 
-<article>
-  
-<h1><a href="/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/">Code snippet dla PropertyChanged (MVVM)</a></h1>
-<time datetime="2011-12-05T00:58:00-08:00" pubdate><span class='month'>Dec</span> <span class='day'>05</span> <span class='year'>2011</span></time>
+<p>a nie z pola:</p>
 
-<footer>
-  <span class="categories">Kategorie: <a class='category' href='/blog/categories/code-snippets/'>code_snippets</a>, <a class='category' href='/blog/categories/mvvm/'>mvvm</a>, <a class='category' href='/blog/categories/wp7/'>wp7</a></span>
-</footer>
+<pre><code>&lt;name&gt;Appname&lt;/name&gt;
+</code></pre>
 
+<p>Rozwiązaniem jest wypakowanie z pliku IPA konfiguracji w <strong>info.plist</strong>, zmiana pola:</p>
 
-</article>
+<pre><code>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;Filename&lt;/string&gt;
+</code></pre>
 
+<p>na:</p>
+
+<pre><code>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;Appname&lt;/string&gt;
+</code></pre>
+
+<p>i wpakowanie tego pliku z powrotem do IPA.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Autor: <span class="fn">Jarek Szczepański</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-09T10:35:00-08:00" pubdate data-updated="true">Dec 9<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/adobe/'>adobe</a>, <a class='category' href='/blog/categories/air/'>air</a>, <a class='category' href='/blog/categories/ios/'>ios</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios/" data-via="imrahil" data-counturl="http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/12/05/code-snippet-dla-propertychanged-mvvm/" title="Poprzedni wpis: Code snippet dla PropertyChanged (MVVM)">&laquo; Code snippet dla PropertyChanged (MVVM)</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Komentarze</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -183,7 +268,10 @@
       var disqus_shortname = 'malediy';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios/';
+        var disqus_url = 'http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

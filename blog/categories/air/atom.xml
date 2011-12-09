@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kategoria: air | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/air/atom.xml" rel="self"/>
+  <link href="http://imrahil.github.com/"/>
+  <updated>2011-12-09T10:44:37-08:00</updated>
+  <id>http://imrahil.github.com/</id>
+  <author>
+    <name><![CDATA[Jarek Szczepański]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Błąd w Adobe AIR 3.1 dla iOS]]></title>
+    <link href="http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios/"/>
+    <updated>2011-12-09T10:35:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2011/12/09/blad-w-adobe-air-3-dot-1-dla-ios</id>
+    <content type="html"><![CDATA[<p>Jeśli po instalacji aplikacji Adobe AIR dla iOS nazwa aplikacji jest skopana to znaczy, że macie do czynienia z <a href="https://bugbase.adobe.com/index.cfm?event=bug&amp;id=3052344">błędem 3052344</a>.<br/>
+Konkretnie chodzi o to, że nazwa aplikacji wyświetlana w menu brana jest z application-app.xml z pola:</p>
+
+<pre><code>&lt;filename&gt;Filename&lt;/filename&gt;
+</code></pre>
+
+<p>a nie z pola:</p>
+
+<pre><code>&lt;name&gt;Appname&lt;/name&gt;
+</code></pre>
+
+<p>Rozwiązaniem jest wypakowanie z pliku IPA konfiguracji w <strong>info.plist</strong>, zmiana pola:</p>
+
+<pre><code>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;Filename&lt;/string&gt;
+</code></pre>
+
+<p>na:</p>
+
+<pre><code>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;Appname&lt;/string&gt;
+</code></pre>
+
+<p>i wpakowanie tego pliku z powrotem do IPA.</p>
+]]></content>
+  </entry>
+  
+</feed>
