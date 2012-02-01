@@ -4,7 +4,7 @@
   <title><![CDATA[Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2012-02-01T14:13:11-08:00</updated>
+  <updated>2012-02-01T14:24:29-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -20,7 +20,7 @@
     <id>http://imrahil.github.com/blog/2012/02/01/ciemny-layout-dla-intellij</id>
     <content type="html"><![CDATA[<p><a href="http://imrahil.github.com/images/uploads/DarkFlex_theme_preview.png"><img class="center" src="http://imrahil.github.com/images/uploads/DarkFlex_theme_preview_small.png" width="256"></a></p>
 
-<p>Oto moja konwersja znanego tematu kolorystycznego ZenBurn. Poprawiona pod kątem Flexa i wersji 11 Intellij IDEA.</p>
+<p>Moja wersja znanego tematu kolorystycznego ZenBurn. Poprawiona pod kątem Flexa i wersji 11 Intellij IDEA. Ściągnięta prawdopodobnie z tego <a href="http://stackoverflow.com/a/5393301/131708">wątku na Stackoverflow</a>.</p>
 
 <p>Instalacja:</p>
 
