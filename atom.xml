@@ -4,7 +4,7 @@
   <title><![CDATA[Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2012-01-22T15:31:20-08:00</updated>
+  <updated>2012-02-01T14:13:11-08:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ciemny layout dla Flexa w Intellij 11]]></title>
+    <link href="http://imrahil.github.com/blog/2012/02/01/ciemny-layout-dla-intellij/"/>
+    <updated>2012-02-01T13:30:00-08:00</updated>
+    <id>http://imrahil.github.com/blog/2012/02/01/ciemny-layout-dla-intellij</id>
+    <content type="html"><![CDATA[<p><a href="http://imrahil.github.com/images/uploads/DarkFlex_theme_preview.png"><img class="center" src="http://imrahil.github.com/images/uploads/DarkFlex_theme_preview_small.png" width="256"></a></p>
+
+<p>Oto moja konwersja znanego tematu kolorystycznego ZenBurn. Poprawiona pod kątem Flexa i wersji 11 Intellij IDEA.</p>
+
+<p>Instalacja:</p>
+
+<ol>
+<li><a href="http://imrahil.github.com/upload/DarkFlex.jar">Ściągnij plik z ustawieniami</a></li>
+<li>Wybierz <em>File -> Import settings</em></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Błąd w Adobe AIR 3.1 dla iOS]]></title>
