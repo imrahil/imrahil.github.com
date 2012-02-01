@@ -7,7 +7,7 @@ categories:
 ---
 [{% img center /images/uploads/DarkFlex_theme_preview_small.png 256 %}](/images/uploads/DarkFlex_theme_preview.png)
 
-Oto moja konwersja znanego tematu kolorystycznego ZenBurn. Poprawiona pod kątem Flexa i wersji 11 Intellij IDEA.
+Moja wersja znanego tematu kolorystycznego ZenBurn. Poprawiona pod kątem Flexa i wersji 11 Intellij IDEA. Ściągnięta prawdopodobnie z tego [wątku na Stackoverflow](http://stackoverflow.com/a/5393301/131708).
 
 Instalacja:
 
