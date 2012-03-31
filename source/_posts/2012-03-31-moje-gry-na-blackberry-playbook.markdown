@@ -3,7 +3,7 @@ layout: post
 title: "Moje gry na Blackberry Playbook"
 date: 2012-03-31 01:42
 comments: true
-categories: 
+categories: blackberry playbook gry
 ---
 Lista moich gier i aplikacji napisanych na Blackberry Playbook:
 
