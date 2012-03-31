@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kategoria: playbook | Mały blog DIY]]></title>
+  <link href="http://imrahil.github.com/blog/categories/playbook/atom.xml" rel="self"/>
+  <link href="http://imrahil.github.com/"/>
+  <updated>2012-03-31T02:47:23-07:00</updated>
+  <id>http://imrahil.github.com/</id>
+  <author>
+    <name><![CDATA[Jarek Szczepański]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moje gry na Blackberry Playbook]]></title>
+    <link href="http://imrahil.github.com/blog/2012/03/31/moje-gry-na-blackberry-playbook/"/>
+    <updated>2012-03-31T01:42:00-07:00</updated>
+    <id>http://imrahil.github.com/blog/2012/03/31/moje-gry-na-blackberry-playbook</id>
+    <content type="html"><![CDATA[<p>Lista moich gier i aplikacji napisanych na Blackberry Playbook:</p>
+
+<ul>
+<li><a href="http://appworld.blackberry.com/webstore/content/27601/">Morse Code Generator</a> - kodowanie i dekodowanie sygnałów Morsa - <a href="https://github.com/imrahil/Morse-Code-Generator">źródła</a></li>
+<li><a href="http://appworld.blackberry.com/webstore/content/83657/">Twitter Favorites</a> - przeglądarka wiadomości z Twittera zaznaczonych jako ulubione - <a href="https://github.com/imrahil/PlaybookTwitFavorites">źródła</a></li>
+<li>Atari Go - uproszczona wersja japońskiego Go - <a href="https://github.com/imrahil/atari-go">źródła</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
