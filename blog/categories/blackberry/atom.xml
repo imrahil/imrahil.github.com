@@ -4,7 +4,7 @@
   <title><![CDATA[Kategoria: blackberry | Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/blog/categories/blackberry/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2012-03-31T03:22:05-07:00</updated>
+  <updated>2012-04-02T14:35:42-07:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -21,9 +21,9 @@
     <content type="html"><![CDATA[<p>Lista moich gier i aplikacji napisanych na Blackberry Playbook:</p>
 
 <ul>
-<li><a href="http://appworld.blackberry.com/webstore/content/27601/">Morse Code Generator</a> - kodowanie i dekodowanie sygnałów Morsa - <a href="https://github.com/imrahil/Morse-Code-Generator">źródła</a></li>
-<li><a href="http://appworld.blackberry.com/webstore/content/83657/">Twitter Favorites</a> - przeglądarka wiadomości z Twittera zaznaczonych jako ulubione - <a href="https://github.com/imrahil/PlaybookTwitFavorites">źródła</a></li>
-<li>Atari Go - uproszczona wersja japońskiego Go - <a href="https://github.com/imrahil/atari-go">źródła</a></li>
+<li><a href="http://appworld.blackberry.com/webstore/content/27601/">Morse Code Generator</a> - kodowanie i dekodowanie sygnałów Morsa - <a href="http://imrahil.github.com/Morse-Code-Generator/">źródła</a></li>
+<li><a href="http://appworld.blackberry.com/webstore/content/83657/">Twitter Favorites</a> - przeglądarka wiadomości z Twittera zaznaczonych jako ulubione - <a href="http://imrahil.github.com/PlaybookTwitFavorites">źródła</a></li>
+<li>Atari Go - uproszczona wersja japońskiego Go - <a href="http://imrahil.github.com/atari-go/">źródła</a></li>
 </ul>
 
 ]]></content>
