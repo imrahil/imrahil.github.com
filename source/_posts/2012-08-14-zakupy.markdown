@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Zakupy"
+date: 2012-08-14 13:28
+comments: true
+categories: 
+---
+W końcu udało mi się pchnąć sprawę upgrade'u mojego kompa! Już za chwilę, już za momencik powinien pojawić się u mnie [Dell T1650](http://www.dell.com/pl/firmiinstytucji/p/precision-t1650/pd) w oszałamiającej konfiguracji z Intel Xeon E3-1270 3.5GHz i 16GB RAM!
+
+{% img center http://dl.dropbox.com/u/70162/blog/zakupy/dell_t1650.jpg %}
+
+Do tego drugi monitor 23 cale, czyli [Dell U2312HM](http://www.dell.com/ed/business/p/dell-u2312h/pd) (niestety produkcja U2311H już się zakończyła więc będą dwa lekko odmienne)
+
+{% img center http://dl.dropbox.com/u/70162/blog/zakupy/dell_u2312h.jpg %}
+
+Nie obyło się jednak bez dodatkowych gadżetów elektronicznych :)
+
+Najpierw trochę wiedzy teoretycznej, czyli książka z Helionu ["Język C dla mikrokontrolerów AVR. Od podstaw do zaawansowanych aplikacji"](http://helion.pl/ksiazki/jezyk-c-dla-mikrokontrolerow-avr-od-podstaw-do-zaawansowanych-aplikacji-tomasz-francuz,jcmikr.htm) (w końcu dowiem się jak korzystać z przesunięć bitowych :)
+
+{% img center http://dl.dropbox.com/u/70162/blog/zakupy/c_avr_book.jpg %}
+
+Do tego najnowsza płytka deweloperska od Texas Instruments - [C2000 Piccolo Launchpad](http://www.ti.com/c2000-launchpad) (32 bity, yeah!)
+
+{% img center http://dl.dropbox.com/u/70162/blog/zakupy/c2000launchpad.jpg %}
+

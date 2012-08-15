@@ -28,17 +28,17 @@ Odkrycie ostatnich dni - serwis [ecdb.net](http://ecdb.net/login.php).
 
 Wyśmienita baza danych dla posiadanych komponentów elektronicznych (które jak wiadomo lubią się przewalać byle gdzie i trudno je znaleźć :)
 
-<a href="http://dl.dropbox.com/u/70162/ecdb/ecdb01.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/ecdb/ecdb01_small.jpg %}</a>
+<a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb01.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/blog/ecdb/ecdb01_small.jpg %}</a>
 
 Dla każdego komponentu można podać: nazwę, komentarz, producenta, położenie w naszym biurku czy szafce, masę, link do noty katalogowej, zdjęcia, typ obudowy, cenę, wymiary, posiadaną ilość i ilość wymaganą do zamówienia.
 
-<a href="http://dl.dropbox.com/u/70162/ecdb/ecdb02.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/ecdb/ecdb02_small.jpg %}</a>
+<a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb02.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/blog/ecdb/ecdb02_small.jpg %}</a>
 
 Serwis umożliwia tworzenie projektów i dodawanie do nich komponentów z posiadanych zbiorów oraz list zakupowych (tzw. BOM - Bill Of Material).
 
-<a href="http://dl.dropbox.com/u/70162/ecdb/ecdb03.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/ecdb/ecdb03_small.jpg %}</a>
+<a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb03.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/blog/ecdb/ecdb03_small.jpg %}</a>
 
-<a href="http://dl.dropbox.com/u/70162/ecdb/ecdb04.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/ecdb/ecdb04_small.jpg %}</a>
+<a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb04.jpg" class="lightbox">{% img center http://dl.dropbox.com/u/70162/blog/ecdb/ecdb04_small.jpg %}</a>
 
 Dla niecierpliwych (takich jak ja) przygotowałem szybki skrypcik [Greasemonkey](http://www.greasespot.net/) pokazujący na czerwono brakujące komponenty w wybranym projekcie - [link](https://gist.github.com/2043287) (efekt widoczny powyżej)
 
