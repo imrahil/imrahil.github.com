@@ -4,7 +4,7 @@
   <title><![CDATA[Kategoria: DIY | Mały blog DIY]]></title>
   <link href="http://imrahil.github.com/blog/categories/diy/atom.xml" rel="self"/>
   <link href="http://imrahil.github.com/"/>
-  <updated>2012-04-02T14:35:42-07:00</updated>
+  <updated>2012-08-15T03:26:58-07:00</updated>
   <id>http://imrahil.github.com/</id>
   <author>
     <name><![CDATA[Jarek Szczepański]]></name>
@@ -45,17 +45,17 @@ jQuery(function() {
 
 <p>Wyśmienita baza danych dla posiadanych komponentów elektronicznych (które jak wiadomo lubią się przewalać byle gdzie i trudno je znaleźć :)</p>
 
-<p><a href="http://dl.dropbox.com/u/70162/ecdb/ecdb01.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/ecdb/ecdb01_small.jpg"></a></p>
+<p><a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb01.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb01_small.jpg"></a></p>
 
 <p>Dla każdego komponentu można podać: nazwę, komentarz, producenta, położenie w naszym biurku czy szafce, masę, link do noty katalogowej, zdjęcia, typ obudowy, cenę, wymiary, posiadaną ilość i ilość wymaganą do zamówienia.</p>
 
-<p><a href="http://dl.dropbox.com/u/70162/ecdb/ecdb02.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/ecdb/ecdb02_small.jpg"></a></p>
+<p><a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb02.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb02_small.jpg"></a></p>
 
 <p>Serwis umożliwia tworzenie projektów i dodawanie do nich komponentów z posiadanych zbiorów oraz list zakupowych (tzw. BOM - Bill Of Material).</p>
 
-<p><a href="http://dl.dropbox.com/u/70162/ecdb/ecdb03.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/ecdb/ecdb03_small.jpg"></a></p>
+<p><a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb03.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb03_small.jpg"></a></p>
 
-<p><a href="http://dl.dropbox.com/u/70162/ecdb/ecdb04.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/ecdb/ecdb04_small.jpg"></a></p>
+<p><a href="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb04.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/ecdb/ecdb04_small.jpg"></a></p>
 
 <p>Dla niecierpliwych (takich jak ja) przygotowałem szybki skrypcik <a href="http://www.greasespot.net/">Greasemonkey</a> pokazujący na czerwono brakujące komponenty w wybranym projekcie - <a href="https://gist.github.com/2043287">link</a> (efekt widoczny powyżej)</p>
 
@@ -71,7 +71,7 @@ jQuery(function() {
     <content type="html"><![CDATA[<p>Korzystając z aktualnej promocji w <a href="http://www.lidl.pl/">Lidlu</a> kupiłem sobie stojak do wiertarki w cenie 69.90pln (chyba nawet nie jest chiński :)<br/>
 Wygląda całkiem korzystnie i sprawia wrażenie dość solidnego. Nic nie lata, nie ma luzów, brak jakichkolwiek uszkodzeń.</p>
 
-<p><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak11_small.jpg"></p>
+<p><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak11_small.jpg"></p>
 
 <!-- more -->
 
@@ -103,21 +103,21 @@ jQuery(function() {
 
 <table width="100%">
     <tr>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak01_small.jpg"></a></td>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak02_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak01.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak01_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak02.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak02_small.jpg"></a></td>
     </tr>
     <tr>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak03_small.jpg"></a></td>
-        <td><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak10_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak03.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak03_small.jpg"></a></td>
+        <td><a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak10.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak10_small.jpg"></a></td>
     </tr>
 </table>
 
 
-<p><a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak05.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak05_small.jpg"></a>
-<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak06.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak06_small.jpg"></a>
-<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak07.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak07_small.jpg"></a>
-<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak08.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak08_small.jpg"></a>
-<a href="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak09.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/wiertarka_stojak/wiertarka_stojak09_small.jpg"></a></p>
+<p><a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak05.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak05_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak06.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak06_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak07.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak07_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak08.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak08_small.jpg"></a>
+<a href="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak09.jpg" class="lightbox"><img class="center" src="http://dl.dropbox.com/u/70162/blog/wiertarka_stojak/wiertarka_stojak09_small.jpg"></a></p>
 
 <p>No to teraz trzeba kupić wiertarkę - tak, żeby móc sprawdzić jak się stojak w boju sprawuje :)</p>
 ]]></content>
